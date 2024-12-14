@@ -5,13 +5,6 @@ VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F7F53C84-C988-4CCA-9DA2-11417A6C5BCA}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{123A29F4-4DA6-45D8-A9A8-DD71A0370D17}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{D3E612FE-8845-4DEF-8F21-B86F1E2D0EB7}"
-	ProjectSection(SolutionItems) = preProject
-		ci-build.yml = ci-build.yml
-	EndProjectSection
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MAUI_PiplineDemo", "src\MAUI_PiplineDemo\MAUI_PiplineDemo.csproj", "{7E61A5E3-9F16-440F-B6F5-F43E61D2DB4D}"
 EndProject
 Global
@@ -31,7 +24,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{D3E612FE-8845-4DEF-8F21-B86F1E2D0EB7} = {123A29F4-4DA6-45D8-A9A8-DD71A0370D17}
 		{7E61A5E3-9F16-440F-B6F5-F43E61D2DB4D} = {F7F53C84-C988-4CCA-9DA2-11417A6C5BCA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
