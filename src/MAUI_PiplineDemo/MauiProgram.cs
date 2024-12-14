@@ -3,7 +3,11 @@
 namespace MAUI_PiplineDemo
 {
     public static class MauiProgram
-    {
+    {   
+        /// <summary>
+        /// We are going to something in the code
+        /// </summary>
+        /// <returns></returns>
         public static MauiApp CreateMauiApp()
         {
             var builder = MauiApp.CreateBuilder();
