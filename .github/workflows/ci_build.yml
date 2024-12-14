@@ -48,7 +48,7 @@ jobs:
             run: dotnet build src/MAUI_PiplineDemo/MAUI_PiplineDemo.csproj -c Release -f net8.0-android --no-restore
 
           - name: Upload Android Artifact
-            uses: actions/upload-artifact@v2.3.1
+            uses: actions/upload-artifact@v4.0.0
             with:
               name: android-ci-build
               path: src/MAUI_PiplineDemo/bin/Release/net8.0-android/*Signed.a*
