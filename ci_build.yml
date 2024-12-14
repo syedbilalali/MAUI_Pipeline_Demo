@@ -50,4 +50,4 @@ env:
         uses: actions/upload-artifact@v2.3.1
         with:
           name: android-ci-build
-          path: src/MAUI_PiplineDemo/bin/Release/net6.0-android/*Signed.a*
+          path: src/MAUI_PiplineDemo/bin/Release/net8.0-android/*Signed.a*
