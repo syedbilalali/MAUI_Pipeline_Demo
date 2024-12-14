@@ -9,7 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{123A
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{D3E612FE-8845-4DEF-8F21-B86F1E2D0EB7}"
 	ProjectSection(SolutionItems) = preProject
-		ci_build.yml = ci_build.yml
+		ci-build.yml = ci-build.yml
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MAUI_PiplineDemo", "src\MAUI_PiplineDemo\MAUI_PiplineDemo.csproj", "{7E61A5E3-9F16-440F-B6F5-F43E61D2DB4D}"
